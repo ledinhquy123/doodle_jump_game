@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    background: linear-gradient(to bottom, white, lightblue);
+    height: 100vh;
+}
+#board{
+    position: relative;
+    margin-top: 55px;
+    background: url("image/background.png");
+}
+#end-game-menu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, .9);
+    width: 300px;
+    min-height: 200px;
+    box-shadow: 5px 10px 8px #888888;
+    display: none;
+}
+#end-game-menu #header{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#end-game-menu #retry{
+    background-color: #443b3b;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+#end-game-menu #retry:hover{
+    transform: translateY(-4px);
+    cursor: pointer;
+}
